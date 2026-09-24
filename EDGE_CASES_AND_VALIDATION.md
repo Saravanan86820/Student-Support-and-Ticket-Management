@@ -20,12 +20,12 @@
 * **Our Solution:**
   1. Escalation levels are strictly hierarchical (`NONE` $\rightarrow$ `LEVEL_1_STAFF` $\rightarrow$ `LEVEL_2_HOD` $\rightarrow$ `LEVEL_3_DEAN`).
   2. De-escalation preserves the escalation history in the immutable audit trail (`activityLogs`).
-  3. Re-escalation to the same tier requires a mandatory reason override, and tickets with `escalationLevel === 'LEVEL_3_DEAN'` cannot be escalated further; they must be resolved or closed by executive order.
+  3. Re-escalation to the same tier requires a reason override, and tickets with `escalationLevel === 'LEVEL_3_DEAN'` cannot be escalated further; they must be resolved or closed by executive order.
 
 ### 1.3 The "Resolution Dispute & Zombie Ticket" Edge Case
 * **The Problem:** Staff marks a ticket as "Resolved", but the student's problem wasn't actually solved. Alternatively, a resolved ticket sits indefinitely waiting for student confirmation.
 * **Our Solution:**
-  1. **Reopen Window:** Students have a 48-hour window from `resolvedAt` to dispute the resolution via the "Reopen Request" button with a mandatory reason.
+  1. **Reopen Window:** Students have a 48-hour window from `resolvedAt` to dispute the resolution via the "Reopen Request" button with a reason.
   2. **Reopen Metrics:** Each reopen increments `reopenCount`. Tickets with `reopenCount >= 2` are automatically flagged with high risk on the Dean's dashboard to prevent staff from prematurely closing tickets to game their metrics.
   3. **Auto-Closure Inactivity:** After 48 hours without dispute, the system allows the ticket to be permanently closed.
 
@@ -60,8 +60,8 @@
 | **Bank UTR** | Alphanumeric (Min 8 chars) | Prevents dummy single-digit inputs during fee disputes. |
 | **Medical Dates** | Start Date $\le$ End Date | Prevents chronological paradoxes in leave condonation. |
 | **File Attachments** | PDF, PNG, JPG (Max 10MB) | Enforces acceptable document formats. |
-| **Escalation Reason** | Mandatory textarea | Disallows silent or unrecorded staff escalations. |
-| **Resolution Summary**| Mandatory textarea | Staff must record resolution actions before marking resolved. |
+| **Escalation Reason** | textarea | Disallows silent or unrecorded staff escalations. |
+| **Resolution Summary**| textarea | Staff must record resolution actions before marking resolved. |
 
 ---
 

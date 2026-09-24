@@ -126,7 +126,7 @@ Classifies active tickets into operational risk buckets:
 │   └── main.tsx                 # React entry point
 ├── APPROACH_AND_ARCHITECTURE.md # Detailed system design, data model, trade-offs
 ├── EDGE_CASES_AND_VALIDATION.md # Edge case handling, concurrency, failure modes
-├── MANDATORY_AI_USAGE_REPORT.md # Completed AI usage assessment report
+├── AI_USAGE_REPORT.md # Completed AI usage assessment report
 └── package.json
 ```
 
@@ -135,4 +135,4 @@ Classifies active tickets into operational risk buckets:
 ## 📄 Accompanying Documentation
 1. [APPROACH_AND_ARCHITECTURE.md](file:///c:/Users/ADMIN/Desktop/Student%20Support%20&%20Ticket%20Management%201/APPROACH_AND_ARCHITECTURE.md)
 2. [EDGE_CASES_AND_VALIDATION.md](file:///c:/Users/ADMIN/Desktop/Student%20Support%20&%20Ticket%20Management%201/EDGE_CASES_AND_VALIDATION.md)
-3. [MANDATORY_AI_USAGE_REPORT.md](file:///c:/Users/ADMIN/Desktop/Student%20Support%20&%20Ticket%20Management%201/MANDATORY_AI_USAGE_REPORT.md)
+3. [AI_USAGE_REPORT.md](file:///c:/Users/ADMIN/Desktop/Student%20Support%20&%20Ticket%20Management%201/AI_USAGE_REPORT.md)

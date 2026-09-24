@@ -11,7 +11,7 @@
 ### 1.1 The Higher-Education Context
 University campuses are complex multi-stakeholder ecosystems. On any given day, thousands of students interact with distinct administrative departments:
 - **Accounts & Finance:** Submitting fee challans, seeking installment concessions, and reconciling duplicate UPI deductions.
-- **Academic Affairs & Records:** Seeking medical leave adjustments (which directly affect exam eligibility thresholds like the 75% mandatory attendance rule).
+- **Academic Affairs & Records:** Seeking medical leave adjustments (which directly affect exam eligibility thresholds like the 75% attendance rule).
 - **Security & Identity Cell:** Managing lost RFID student ID cards required for hostel biometric turnstiles and exam hall entry.
 - **Examinations & Certificates:** Requesting urgent bonafide certificates for passport/visa appointments and official transcripts.
 

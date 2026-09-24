@@ -1,4 +1,4 @@
-# Mandatory AI Usage Report
+# AI Usage Report
 
 > **Recruitment Drive:** Pre-Drive Product Engineering  
 > **Candidate Assessment Brief:** Assignment 4 — Student Support & Ticket Management  
